@@ -140,18 +140,88 @@ Gray E5E5E5
 
 */
 
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap");
+
 /* Type Styles */
 
-h1,
-h2,
-h3,
-p {
+h1 {
   font-weight: extra-bold;
   font-size: 48px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
 }
 h1,
 h2,
 h3,
 p {
   color: #f6f8ff;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Stick No Bills", sans-serif;
+}
+footer,
+header,
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+header {
+  height: 75px;
+  background-color: #154e7a;
+  padding-top: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  padding-top: 10px;
+  display: flex;
+}
+li {
+  margin: 0 10px;
+}
+/* Class Styles */
+
+/* Section One */
+
+.section-one {
+  background-color: #154e7a;
+  height: 400px;
+  display: flex;
+}
+.macarons {
+  width: 300px;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: ;
+}
+
+.section-two {
+  background-color: #f6f8ff;
+}
+.section-three {
+  background-color: #824c71;
+}
+.section-four {
+  background-color: #e5e5e5;
+}
+footer {
+  background-color: #f29602;
 }
