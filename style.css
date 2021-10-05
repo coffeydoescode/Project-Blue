@@ -136,14 +136,15 @@ Blue 154E7A
 Purple 824C71
 Orange F29602
 White F6F8FF
-Gray E5E5E5 
+Gray E5E5E5
+Dark Gray BAC5C8
 
 */
 
 /* Type Styles */
 
 h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 48px;
 }
 h2 {
@@ -156,11 +157,13 @@ h3 {
 button {
   display: flex;
   margin-top: 20px;
-  padding: 6px 12px;
+  padding: 10px 30px;
   color: #f6f8ff;
-  background-color: #f29602;
+  background-color: #0090cd;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
 }
 h1,
 h2,
@@ -175,14 +178,16 @@ header,
 .section-two,
 .section-three,
 .section-four {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 header {
-  height: 75px;
   background-color: #154e7a;
   padding-top: 20px;
   color: #f6f8ff;
+}
+header li {
+  color: #bac5c8;
 }
 nav {
   display: flex;
@@ -195,6 +200,18 @@ ul {
 li {
   margin: 0 10px;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+li a:hover {
+  border-bottom: 2px solid #f6f8ff;
+  color: #f6f8ff;
+}
+
 p {
   font-size: 18px;
 }
@@ -220,6 +237,8 @@ p {
 .section-title p {
   width: 90%;
   margin-top: 10px;
+  font-weight: 300;
+  color: #bac5c8;
 }
 
 .coffee-truck {
@@ -227,11 +246,48 @@ p {
   margin-right: 15px;
   border-radius: 10px;
 }
+
+/* Section Two */
+
 .section-two {
   background-color: #f6f8ff;
   height: 400px;
   color: #154e7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
 }
+.section-two h3 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 40px 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  color: #154e7a;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 10px;
+}
+.card-holder {
+  display: flex;
+  /* text-align: center; */
+}
+.card-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #0090cd;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+/* Section Three */
+
 .section-three {
   background-color: #e5e5e5;
   height: 400px;
