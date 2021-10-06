@@ -321,7 +321,20 @@ p {
 
 .section-four {
   background-color: #f6f8ff;
-  height: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-four__container {
+  height: 40%;
+  background-color: #154e7a;
+  color: #e4e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 100px;
 }
 footer {
   background-color: #154e7a;
