@@ -263,6 +263,7 @@ p {
   font-weight: 600;
   margin: 40px 0;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -289,9 +290,35 @@ p {
 /* Section Three */
 
 .section-three {
-  background-color: #e5e5e5;
-  height: 400px;
+  background-color: #e4e7eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #154e7a;
 }
+.section-three__content {
+  width: 80%;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-three__content blockquote {
+  line-height: 45px;
+}
+.quoted {
+  align-self: flex-end;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Section Four */
+
 .section-four {
   background-color: #f6f8ff;
   height: 400px;
@@ -300,4 +327,8 @@ footer {
   background-color: #154e7a;
   height: 100px;
   color: #f6f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
 }
